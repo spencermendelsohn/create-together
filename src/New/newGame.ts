@@ -6,8 +6,8 @@
 //
 
 import { v5 as uuidv5 } from 'uuid';
-import {Game} from "../types.ts";
-import {Player} from "../../Player/types.ts";
+import {Game} from "../Game/types.ts";
+import {Player} from "../Player/types.ts";
 
 export function newGame(number_players: number, total_rounds: number, players: Player[]): Game {
     return {
